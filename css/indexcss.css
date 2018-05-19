@@ -1,0 +1,275 @@
+
+p{
+	font-weight: bold;
+}
+#header::before{
+			content: url('../images/me2.jpg');
+			position: absolute;
+			left: 20px;
+			width: 100px;
+    		height: 100px;
+    		overflow: hidden;
+    		-webkit-transform: rotateZ(290deg); /* Safari */
+    		transform: rotateZ(-20deg);
+
+}
+#container {
+	background-color: white; 
+    overflow: hidden;
+
+}
+#container a{
+	float: right;
+	color: MediumSeaGreen;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+#container a:hover{
+	background-color: #ddd;
+    color: DarkGreen;
+}
+.Intro {
+		padding: 15em 0 10em 0;
+		background: url('../images/bg6.jpg');
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		float:  center;
+}	
+.title {
+		padding: 10em 0 5em 0;
+		background: no-repeat url('../images/bg4.jpg');
+		background-size: cover;
+		background-position: top;
+		background-attachment: fixed;
+		float:  center;
+		font-family: 'Indie Flower', cursive;
+		text-align: center;
+		color: white;
+		text-shadow:0px;
+		text-decoration: underline;
+}		
+.name{
+
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	color: white;
+	text-shadow:0px;
+	text-decoration: underline;
+
+}
+.designation{
+  font-family: 'Kavivanar', cursive;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0px;
+  color: ;
+}
+.job {
+		padding: 10em 0 5em 0;
+		background: no-repeat url('../images/bg2.jpg');
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		float:  center;
+		font-family: 'Indie Flower', cursive;
+		text-align: center;
+		color: white;
+		text-shadow:0px;
+		text-decoration: underline;
+}	
+h2{
+	font-family: 'Kavivanar', cursive;
+	text-align: center;
+	padding: 30px 30px 0px 30px;
+	color:ForestGreen ; 
+}
+ h3{
+	text-align: center;
+    padding: 25px 30px 0px 30px;
+   color:MediumSeaGreen;
+}
+.cont-me{
+	margin: auto;
+
+}
+.cont-me p{
+	text-align:  center;
+	margin-left: 450px;
+	margin-right:400px;
+}
+.skills{
+	margin: auto;
+}
+
+.cont-me-1{
+	margin: auto;
+	padding-bottom: 40px;
+
+}
+.img1{
+	display: block;
+	margin-left:  120px;
+	float: left;
+
+}
+.cont-me-1 h3{
+	margin-right: 130px;
+
+}
+.cont-me-1 p{
+	margin-right:300px;
+	margin-left: 250px;
+	
+}
+.cont-me-2{
+	margin: auto;
+	padding-top: 2cm;
+}
+.img2{
+	display: block;
+	float: right;
+	margin-right: -130px;
+	margin-top: 100px;
+	
+	
+}
+.cont-me-2 h3{
+	text-align: left;
+	margin-left: 155px;
+}
+.cont-me-2 p{
+	margin-right:600px;
+	margin-left: 200px;
+	
+}
+.contact{
+	padding-top: 1cm;
+	margin: auto;
+}
+.contact a{
+	position: relative;
+	left: 400px;
+	color: MediumSeaGreen;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+#copyright{
+	background-color: AliceBlue;
+	margin: auto;
+	width: 100%;
+	text-align:  center;
+	overflow: hidden;
+}
+#copyright a{
+	color: Green;
+	text-decoration: underline;
+}
+
+#copyright a:hover{
+	background-color: #ddd ;
+    color: Black;
+}
+.lay-2 img{
+	display: block;
+	margin: auto;
+	width: 150px;
+	margin-left: 300px;
+	margin-bottom:  90px;
+	float:left;
+	
+
+
+
+}
+.lay-3 img{
+	display: block;
+	float: right;
+	width: 350px;
+	margin-right: 40px;
+	margin-top: -50px;
+	
+}
+.lay-2{
+	margin: auto;
+	padding-bottom: 0.5cm;
+
+}
+.lay-2 p{
+	text-align:  justify;
+	margin-left: 600px;
+	margin-right:100px;
+	margin-top: 00px;
+	padding-right: 0.1cm;
+}
+.lay-3 h2{
+	margin:auto ;
+	width: 400px;
+}
+.lay-3 p{
+	text-align:  justify;
+	margin-left: 150px;
+	margin-right:0px;
+}
+.lay-3 h3{
+	padding-top: 40px;
+	margin-left: -850px;
+}
+.la-1 h3{
+	margin-right:  220px;
+}
+.lay4{
+	margin: auto;
+	padding-bottom: 2cm;
+	
+
+}
+.lay4 p{
+	text-align:  justify;
+	margin-left: 500px;
+	margin-right:50px;
+	margin-top: 100px;
+}
+.lay4 video{
+	float: left;
+	width: 400px;
+}
+.lay4 h4{
+	position: relative;
+	left: 30px;
+	color: MediumSeaGreen;
+}
+.lay4 h3{
+	color: ForestGreen;
+}
+.lay5{
+	margin: auto;
+	padding-top:  0.1cm;
+	padding-bottom: 1cm;
+}
+.lay5 p{
+	text-align:  justify;
+	margin-left: 30px;
+	margin-right:00px;
+	margin-top: 00px;
+}
+.lay5 h3{
+	color:ForestGreen ;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+
+}
+.lay5 img{
+	float: right;
+	width: 400px;
+	object-fit: cover;
+
+
+}
